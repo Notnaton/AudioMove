@@ -23,7 +23,7 @@ namespace Anton.audioMove
 
         void Update()
         {
-            playerPosition = Networking.LocalPlayer.GetPosition();
+            //playerPosition = Networking.LocalPlayer.GetPosition();
             playerPosition = Networking.LocalPlayer.GetBonePosition(HumanBodyBones.Head);
             audioObject.transform.position = clamp(playerPosition, lowLimit, highLimit);
         }
