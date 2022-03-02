@@ -6,5 +6,4 @@ Moves audio with the player in VRC
  - UdonSharp (latest)
 
 # TODO
- - LICENSE
  - Better user interface
